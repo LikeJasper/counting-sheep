@@ -12,6 +12,6 @@ img {
   width: 100vw;
   overflow: visible;
 
-  -webkit-transition: width 2s, height 2s, position 2s, left 2s, top 2s, -webkit-transform 2s;
-  transition: width 2s, height 2s, position 2s, left 2s, top 2s, transform 2s;
+  -webkit-transition: width 2s, left 2s, top 2s;
+  transition: width 2s, left 2s, top 2s;
 }
