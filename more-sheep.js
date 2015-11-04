@@ -4,7 +4,7 @@ $(function () {
   var anotherSheepPlease = function () {
     var sheeptml = '<img src="img/sheep.gif" alt="sheep' + i + '" class="new">',
       sheepDimensions = [260, 179],
-      smallWidth = 5,
+      smallWidth = 10,
       $elem = $(sheeptml).appendTo('.container');
 
     $elem
