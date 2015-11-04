@@ -1,8 +1,17 @@
 body {
   margin: 0;
-  line-height: 0%; }
+  line-height: 0%;
+  background-image: url("../img/green-grass.jpg"); }
 
 img {
-  width: 10vw; }
+  display: inline;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  vertical-align: top;
+  width: 100vw;
+  overflow: visible;
+  -webkit-transition: width 2s, height 2s, position 2s, left 2s, top 2s, -webkit-transform 2s;
+  transition: width 2s, height 2s, position 2s, left 2s, top 2s, transform 2s; }
 
 /*# sourceMappingURL=sheep.css.map */
