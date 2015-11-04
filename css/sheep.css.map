@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,EAAE;;AAGjB,GAAI;EACF,KAAK,EAAE,IAAI",
+"sources": ["../scss/sheep.scss"],
+"names": [],
+"file": "sheep.css"
+}
