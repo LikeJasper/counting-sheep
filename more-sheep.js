@@ -5,6 +5,8 @@ $(function () {
   anotherSheepPlease = function () {
     var elem = '<img src="sheep.gif" alt="sheep">';
     $('.container').append(elem);
-    return "Here you go";
-  }
+    console.log("Here you go");
+    setTimeout(anotherSheepPlease, 1000);
+  };
+  anotherSheepPlease();
 });
