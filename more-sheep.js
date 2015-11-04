@@ -1,7 +1,10 @@
-(function () {
-  'use strict';
+var anotherSheepPlease;
 
-  function anotherSheepPlease () {
-    console.log("Here you go");
+$(function () {
+  'use strict';
+  anotherSheepPlease = function () {
+    var elem = '<img src="sheep.gif" alt="sheep">';
+    $('.container').append(elem);
+    return "Here you go";
   }
-}());
+});
